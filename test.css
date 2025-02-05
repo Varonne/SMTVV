@@ -1,0 +1,24 @@
+.md-grid {
+    max-width: initial;
+}
+
+.md-typeset__table {
+    max-width: 100%;
+    max-height: 550px;
+    overflow: auto;
+}
+
+.md-typeset__table table:not([class]) {
+    display: table;
+    width: max-content;
+
+}
+
+.md-typeset__table table:not([class]) th, td {
+    min-width: 1rem;
+    max-width: 5rem;
+}
+
+.md-typeset table:not([class]) {
+    max-width:none;
+}
